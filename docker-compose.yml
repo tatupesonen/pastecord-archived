@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  haste-server:
+    container_name: "haste-server"
+    build: .
+    volumes:
+      - type: bind
+        source: ./config.js
+        target: /usr/src/app/config.js
