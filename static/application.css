@@ -1,5 +1,9 @@
+*,*:focus,*:hover{
+    outline:none;
+}
+
 body {
-	background: #002B36;
+	background: #2f3136;
 	padding: 20px 50px;
 	margin: 0px;
 }
@@ -62,11 +66,11 @@ textarea {
 #box1 {
 	padding: 5px;
 	text-align: center;
-	background: #00222b;
+	background: #32353b;
 }
 
 #box2 {
-	background: #08323c;
+	background: #2f3136;
 	font-size: 0px;
 	padding: 0px 5px;
 }
@@ -112,7 +116,7 @@ textarea {
 }
 
 #box3, #messages li {
-	background: #173e48;
+	background: #202225;
 	font-family: Helvetica, sans-serif;
 	font-size: 12px;
 	line-height: 14px;
