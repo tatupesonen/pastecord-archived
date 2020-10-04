@@ -30,11 +30,11 @@
 			// Construct app and load initial path
 			$(function(){
 				let baseUrl = window.location.href.split('/');
-				console.log(baseUrl);
+				// console.log(baseUrl);
 				baseUrl = baseUrl.slice(0, baseUrl.length - 1).join('/') + '/';
-				console.log(baseUrl);
+				// console.log(baseUrl);
 				// baseUrl = 'https://plazatest.zneix.eu/haste/';
-				app = new haste('hastebin', { twitter: true, baseUrl: baseUrl });
+				app = new haste('pastecord', { twitter: false, baseUrl: baseUrl });
 				handlePop({ target: window });
 			});
 		</script>
